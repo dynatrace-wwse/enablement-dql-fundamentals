@@ -1,0 +1,7 @@
+INHERIT: mkdocs-base.yaml
+
+site_name: "Dynatrace Enablement Lab: Dql Fundamentals"
+repo_name: "View Code on GitHub"
+repo_url: "https://github.com/dynatrace-wwse/enablement-dql-fundamentals"
+nav:
+  - "1. About": index.md

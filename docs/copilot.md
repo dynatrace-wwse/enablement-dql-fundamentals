@@ -24,4 +24,4 @@ Davis CoPilot can help you write DQL queries using natural language. In this exe
 - [Continue to Use Cases :octicons-arrow-right-24:](use-cases.md)
 </div>
 
---8<-- "snippets/feedback.md"
+

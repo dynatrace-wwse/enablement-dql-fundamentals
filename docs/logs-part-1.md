@@ -41,4 +41,4 @@ Control which fields are returned.
 - [Continue to Logs Part 2 :octicons-arrow-right-24:](logs-part-2.md)
 </div>
 
---8<-- "snippets/feedback.md"
+

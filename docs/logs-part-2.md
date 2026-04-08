@@ -28,4 +28,4 @@ Control the order and number of results.
 - [Continue to Logs Part 3 :octicons-arrow-right-24:](logs-part-3.md)
 </div>
 
---8<-- "snippets/feedback.md"
+

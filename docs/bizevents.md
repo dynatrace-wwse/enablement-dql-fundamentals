@@ -36,4 +36,4 @@
 - [Continue to CoPilot :octicons-arrow-right-24:](copilot.md)
 </div>
 
---8<-- "snippets/feedback.md"
+

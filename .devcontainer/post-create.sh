@@ -5,15 +5,15 @@ source .devcontainer/util/source_framework.sh
 
 setUpTerminal
 
-startKindCluster
+#startKindCluster
 
-installK9s
+#installK9s
 
 # Dynatrace Operator is deployed automatically, secrets are read from the env.
-dynatraceDeployOperator
+#dynatraceDeployOperator
 
 # You can deploy CNFS or AppOnly
-deployCloudNative
+#deployCloudNative
 #deployApplicationMonitoring
 
 # If you want to deploy your own App, just create a function in my_functions.sh and call it here.

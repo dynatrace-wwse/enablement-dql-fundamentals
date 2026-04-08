@@ -40,4 +40,4 @@
 - [Continue to Business Events :octicons-arrow-right-24:](bizevents.md)
 </div>
 
---8<-- "snippets/feedback.md"
+

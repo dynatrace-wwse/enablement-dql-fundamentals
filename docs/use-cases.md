@@ -28,4 +28,3 @@ Analyze payment processing errors with error code and user lookup tables.
 - [Continue to Resources :octicons-arrow-right-24:](resources.md)
 </div>
 
---8<-- "snippets/feedback.md"

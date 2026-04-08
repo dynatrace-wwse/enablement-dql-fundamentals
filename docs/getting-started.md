@@ -39,4 +39,4 @@ After completing each exercise, download the corresponding **Answer Notebook** f
 - [Start with Logs Part 1 :octicons-arrow-right-24:](logs-part-1.md)
 </div>
 
---8<-- "snippets/feedback.md"
+

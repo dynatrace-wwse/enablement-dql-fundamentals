@@ -30,4 +30,4 @@ Use the metrics explorer to discover available metrics in your environment.
 - [Continue to Events :octicons-arrow-right-24:](events.md)
 </div>
 
---8<-- "snippets/feedback.md"
+

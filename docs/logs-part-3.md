@@ -33,4 +33,3 @@ Visualize parsed data using charts.
 - [Continue to Metrics :octicons-arrow-right-24:](metrics.md)
 </div>
 
---8<-- "snippets/feedback.md"

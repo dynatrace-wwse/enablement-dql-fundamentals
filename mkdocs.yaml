@@ -1,0 +1,20 @@
+INHERIT: mkdocs-base.yaml
+
+site_name: "Dynatrace Enablement Lab: DQL Fundamentals"
+repo_name: "View Code on GitHub"
+repo_url: "https://github.com/dynatrace-wwse/enablement-dql-fundamentals"
+nav:
+  - "1. About": index.md
+  - "2. Getting Started": getting-started.md
+  - "3. Logs Part 1": logs-part-1.md
+  - "4. Logs Part 2": logs-part-2.md
+  - "5. Logs Part 3": logs-part-3.md
+  - "6. Metrics": metrics.md
+  - "7. Events": events.md
+  - "8. Business Events": bizevents.md
+  - "9. CoPilot": copilot.md
+  - "10. Use Cases": use-cases.md
+  - "11. Resources": resources.md
+
+extra:
+  rum_snippet: "https://js-cdn.dynatrace.com/jstag/1612cf70810/bf81393wlb/6f303dd9fa111f82_complete.js"

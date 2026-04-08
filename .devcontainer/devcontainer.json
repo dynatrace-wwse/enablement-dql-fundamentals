@@ -1,0 +1,57 @@
+{
+  "name": "Dynatrace Enablement Container",
+  // Pulling the image from the Dockerhub, runs on AMD64 and ARM64. Pulling is normally faster.
+  "image":"shinojosa/dt-enablement:v1.2",
+  /*
+  // Building the image from the Dockerfile
+  "build": {
+    "image": "shinojosa/dt-enablement:v1.2"
+    },
+  */
+  // When running locally we pass the 'secrets' as env variables via runArgs "--env-file",".devcontainer/.env"
+  "runArgs": ["--init", "--privileged", "--network=host"],
+  "mounts": ["source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"],
+  // Entrypoint and CMD are overwritten by VSCode
+  "overrideCommand": false,
+
+  // some base images require a specific user name.
+  "remoteUser": "vscode",
+
+  "postCreateCommand": "./.devcontainer/post-create.sh",
+
+  "postStartCommand": "./.devcontainer/post-start.sh",
+
+  "features": {},
+  "customizations": {
+    "vscode": {
+      // Set container specific settings
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "zsh"
+      },
+      "extensions": [ ]
+    }
+  },
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  "forwardPorts": [
+    30100
+  ],
+  // add labels
+  "portsAttributes": {
+    "30100": { "label": "Application Web UI" }
+  },
+  // minimal CPU when running DT components and apps.
+  "hostRequirements": {
+    "cpus": 4
+  },
+  "secrets": {
+    "DT_ENVIRONMENT": {
+      "description": "URL to your Dynatrace Platform eg. https://abc123.apps.dynatrace.com or for sprint -> https://abc123.sprint.apps.dynatracelabs.com"
+    },
+    "DT_OPERATOR_TOKEN": {
+      "description": "Dynatrace Operator Token"
+    },
+    "DT_INGEST_TOKEN": {
+      "description": "Dynatrace Ingest Token"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+# Framework cache
+.devcontainer/.cache/
+
+# Framework base config fetched at runtime
+mkdocs-base.yaml
+
+# no env files
+.devcontainer/.env*
+
+# mkdocs renders static files in site
+site/*
+
+# No generated file
+**/gen/*/*.yaml
+**/gen/**.yaml
+**-gen.yaml
+
+# no logs
+*.log
+
+# Node
+node_modules
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/*
+!.vscode/mcp.json
+.idea
+
+# Python
+__pycache__/
+
+
+# Temporary Dockerfile from cache for local builds
+Dockerfile.framework

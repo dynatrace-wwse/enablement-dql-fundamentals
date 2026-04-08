@@ -6,11 +6,13 @@
 
 # DQL Fundamentals
 
+![DQL Fundamentals](img/DQL-fundamentals.png){ align=right ; width="350";}
+
 Welcome to the **Dynatrace Query Language (DQL) Fundamentals** workshop.
 
 ## Overview
 
-This hands-on lab teaches you how to query, filter, summarize, and visualize data in Dynatrace using DQL through interactive Notebooks.
+This hands-on lab teaches you how to query, filter, summarize, and visualize data in Dynatrace using DQL through interactive Notebooks. Through 7 progressive exercise modules and 3 real-world use cases, you'll master the universal language for querying all observability data in the Dynatrace platform.
 
 ## What you'll learn
 
@@ -50,4 +52,4 @@ This hands-on lab teaches you how to query, filter, summarize, and visualize dat
 - [Let's get started :octicons-arrow-right-24:](getting-started.md)
 </div>
 
---8<-- "snippets/feedback.md"
+

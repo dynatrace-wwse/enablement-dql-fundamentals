@@ -1,5 +1,5 @@
 <!-- markdownlint-disable-next-line -->
-# <img src="https://cdn.bfldr.com/B686QPH3/at/w5hnjzb32k5wcrcxnwcx4ckg/Dynatrace_signet_RGB_HTML.svg?auto=webp&format=pngg" alt="DT logo" width="30"> Enablement DQL Fundamentals
+# <img src="https://cdn.bfldr.com/B686QPH3/at/w5hnjzb32k5wcrcxnwcx4ckg/Dynatrace_signet_RGB_HTML.svg?auto=webp&format=pngg" alt="DT logo" width="30"> Enablement DQL Fundamentals 🔍
 
 [![Dynatrace](https://img.shields.io/badge/Dynatrace-Intelligence-purple?logo=dynatrace&logoColor=white)](https://dynatrace-wwse.github.io/codespaces-framework/dynatrace-integration/#mcp-server-integration)
 [![Mastering](https://img.shields.io/badge/Mastering-Complexity-8A2BE2?logo=dynatrace)](https://dynatrace-wwse.github.io)
@@ -12,49 +12,43 @@
 
 ___
 
-## Lab Overview
+The **Dynatrace Query Language (DQL)** is the universal language for querying, analyzing, and visualizing all observability data in the Dynatrace platform. Whether you're investigating logs, analyzing metrics, exploring entity relationships, or tracking business events, DQL gives you the power to extract actionable insights from any data source.
 
-This workshop teaches the fundamentals of the **Dynatrace Query Language (DQL)**. Through hands-on exercises using Dynatrace Notebooks, you'll learn how to query, filter, summarize, and visualize data across logs, metrics, events, and business events.
+- Query logs, metrics, events, and business events with a unified language
+- Filter, parse, and transform unstructured data into structured insights
+- Summarize, aggregate, and visualize results with built-in chart types
+- Traverse entity relationships using the Smartscape topology
+- Leverage Davis CoPilot for AI-assisted query generation
+- Work with real-world use cases: network logs, web server analysis, payment processing
 
-### What you'll learn
+<p align="center">
+    <img src="docs/img/DQL-fundamentals.png" alt="DQL Fundamentals" width="500"/>
+</p>
 
-- Fetching and filtering logs with DQL
-- Parsing unstructured log data
-- Summarizing and aggregating data
-- Visualizing results (charts, single values, tables)
-- Querying metrics and timeseries data
-- Working with events and entity relationships
-- Analyzing business events
-- Using Davis CoPilot with DQL
+In this hands-on workshop, you'll master DQL through 7 progressive exercise modules and 3 real-world use cases. Starting with basic log queries, you'll advance through filtering, parsing, summarization, metrics analysis, event exploration, business event analytics, and AI-assisted querying. Each exercise uses Dynatrace Notebooks that you upload to your environment and complete at your own pace.
 
 ### Exercises
 
-| # | Topic | Notebook |
-|---|-------|----------|
-| 1 | **Logs Part 1** — Fetch, filter, timeframes | [Exercises](Exercises/Workshop%20-%20Logs%20Part%201%20-%20Exercises.json) |
-| 2 | **Logs Part 2** — Summarize, aggregate, sort | [Exercises](Exercises/Workshop%20-%20Logs%20Part%202%20-%20Exercises.json) |
-| 3 | **Logs Part 3** — Parse, extract, visualize | [Exercises](Exercises/Workshop%20-%20Logs%20Part%203%20-%20Exercises.json) |
-| 4 | **Metrics** — Timeseries, CPU, forecasting | [Exercises](Exercises/Workshop%20-%20Metrics%20-%20Exercises.json) |
-| 5 | **Events** — Davis problems, entity traversal | [Exercises](Exercises/Workshop%20-%20Events%20-%20Exercises.json) |
-| 6 | **Business Events** — Trading data analysis | [Exercises](Exercises/Workshop%20-%20Bizevents%20-%20Exercises.json) |
-| 7 | **CoPilot** — AI-assisted DQL | [Exercises](Exercises/Workshop%20-%20Copilot%20-%20Exercises.json) |
-
-> Upload the Exercise Notebooks to your Dynatrace environment (Demo.Live). Once completed, upload the corresponding [Answer Notebook](Answers/) to check your work.
+| # | Topic | What you'll learn |
+|---|-------|-------------------|
+| 1 | **Logs Part 1** | `fetch`, `filter`, timeframes, field selection |
+| 2 | **Logs Part 2** | `summarize`, aggregations, `sort`, `limit` |
+| 3 | **Logs Part 3** | `parse`, data extraction, charts (line, pie, single value) |
+| 4 | **Metrics** | `timeseries`, CPU analysis, Davis forecasting |
+| 5 | **Events** | Davis problems, entity traversal, `lookup`, vulnerabilities |
+| 6 | **Business Events** | Trading analysis, JSON parsing, `expand` |
+| 7 | **CoPilot** | AI-assisted DQL with natural language prompts |
 
 ### Use Cases
 
-Real-world DQL scenarios with sample data and lookup tables:
+| Scenario | Data | Skills |
+|----------|------|--------|
+| **Gigamon Network Logs** | Network traffic + TLS cipher lookup | Log parsing, enrichment |
+| **Nginx Access Logs** | Web server logs + geo-location + vulnerability detection | Security analysis |
+| **PaymentService Logs** | Payment errors + user/error code lookups | Error correlation |
 
-| Use Case | Description | Notebook |
-|----------|-------------|----------|
-| **Gigamon Network Logs** | Network traffic analysis with TLS cipher enrichment | [Notebook](Use-Cases/gigamon-network-logs/notebooks/DQL%20Use%20Case%20-%20Gigamon%20Network%20Logs.json) |
-| **Nginx Access Logs** | Web server log analysis with geo-location lookup | [Notebook](Use-Cases/nginx-access-logs/notebooks/DQL%20Use%20Case%20-%20Nginx%20Access%20Logs.json) |
-| **PaymentService Logs** | Payment error analysis with user and error code lookups | [Notebook](Use-Cases/paymentservice-logs/notebooks/DQL%20Use%20Case%20-%20PaymentService%20Logs.json) |
+> Upload the Exercise Notebooks to your Dynatrace environment (Demo.Live). Once completed, upload the corresponding [Answer Notebook](Answers/) to check your work.
 
-### Tips and References
+Ready to master the Dynatrace Query Language?
 
-A quick reference notebook with DQL tips, shortcuts, and useful patterns: [Tips and References](Exercises/Workshop%20-%20Tips%20and%20References.json)
-
-___
-
-## [📖 View the Lab Guide](https://dynatrace-wwse.github.io/enablement-dql-fundamentals/)
+## [📖 Start the hands-on training here!](https://dynatrace-wwse.github.io/enablement-dql-fundamentals/)

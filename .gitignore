@@ -35,3 +35,7 @@ __pycache__/
 
 # Temporary Dockerfile from cache for local builds
 Dockerfile.framework
+
+
+# Framework runtime files
+.devcontainer/util/.count*

@@ -1,4 +1,3 @@
---8<-- "snippets/resources.js"
 
 # Resources
 

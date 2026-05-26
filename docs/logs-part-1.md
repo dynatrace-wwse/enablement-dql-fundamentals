@@ -1,4 +1,3 @@
---8<-- "snippets/logs-part-1.js"
 
 # Logs Part 1 — Fetch, Filter, Timeframes
 

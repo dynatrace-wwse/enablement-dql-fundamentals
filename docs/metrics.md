@@ -1,4 +1,3 @@
---8<-- "snippets/metrics.js"
 
 # Metrics — Timeseries, CPU, Forecasting
 

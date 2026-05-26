@@ -1,4 +1,3 @@
---8<-- "snippets/logs-part-2.js"
 
 # Logs Part 2 — Summarize, Aggregate, Sort
 

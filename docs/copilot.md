@@ -1,4 +1,3 @@
---8<-- "snippets/copilot.js"
 
 # CoPilot — AI-Assisted DQL
 

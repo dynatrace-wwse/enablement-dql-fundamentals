@@ -1,4 +1,3 @@
---8<-- "snippets/bizevents.js"
 
 # Business Events — Trading Data Analysis
 

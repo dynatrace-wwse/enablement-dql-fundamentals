@@ -1,4 +1,3 @@
---8<-- "snippets/events.js"
 
 # Events — Problems, Entities, Vulnerabilities
 

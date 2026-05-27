@@ -1,4 +1,3 @@
---8<-- "snippets/use-cases.js"
 
 # Use Cases — Real-World DQL Scenarios
 

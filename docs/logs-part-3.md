@@ -1,4 +1,3 @@
---8<-- "snippets/logs-part-3.js"
 
 # Logs Part 3 — Parse, Extract, Visualize
 

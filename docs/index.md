@@ -1,4 +1,3 @@
---8<-- "snippets/index.js"
 
 --8<-- "snippets/disclaimer.md"
 

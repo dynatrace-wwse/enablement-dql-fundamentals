@@ -1,3 +1,12 @@
+---
+description: Query, filter, summarize and visualize logs, metrics, events and business events with DQL in Dynatrace Notebooks, across seven progressive exercise modules. Ends with Davis CoPilot for AI-assisted DQL queries.
+tags:
+  - classic
+  - dql
+  - notebooks
+  - logs
+---
+
 
 --8<-- "snippets/disclaimer.md"
 
